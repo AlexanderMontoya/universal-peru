@@ -1,0 +1,58 @@
+main{
+	width: 80%;
+	margin: auto;
+	display: grid;
+	grid-template-areas: 'comentarios gelatina';
+	align-items: center;
+	gap: 20px;
+}
+
+.coment_i{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	grid-area: comentarios;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+.coment{
+	display: flex;
+	align-content: center;
+	gap: 50px;
+}
+.caja_comentario{
+	width: 80%;
+
+}
+
+.caja_title h3{
+	color:#FF0044;
+}
+.seguir_participa{
+	width: 80%;
+	margin-top: 50px;
+}
+
+.seguir_participa h3{
+	color:#FF0044;
+
+}
+.gelatina{
+	
+	display: flex;
+	grid-area: gelatina;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+	width: 80%;
+}
+.caja_content{
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+.caja_content img{
+	width: 70px;
+	height: 70px;
+}

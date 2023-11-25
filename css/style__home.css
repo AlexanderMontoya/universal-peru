@@ -53,10 +53,7 @@ section {
 
 }
 
-	.p1,
-	.p2,
-	.p3,
-	.p4 {
+	.product_button {
 		background-color: #FF0044;
 		width: 60%;
 		height: 80%;
@@ -66,29 +63,27 @@ section {
 		display: flex;
 		align-items: center;
 		justify-content: space-around;
-		
+		box-shadow: 10px 10px 10px #2e010d6c;
 
 	}
-		.p1 div,
-		.p2 div,
-		.p3 div,
-		.p4 div {
+		.product_button div {
 			font-size: 20px;
 			font-weight: bold;
 			color:#FFFFFF;
 			margin: 10px;
 			
 		}
-		.p1 img,
-		.p2 img,
-		.p3 img,
-		.p4 img {
+		.product_button img{
 			background-color: #FFB500;
 			border-radius: 60px;
 			width: 100px;
 			height: 100px;
+            transition: transform .5s;
 		}
 
+        .product_button:hover img{
+            transform: scale(1.1);
+        }
 
 .section2{
 	background-image: url(../img/bg_pattern.svg);
