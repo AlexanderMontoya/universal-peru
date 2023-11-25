@@ -1,0 +1,74 @@
+.about{
+	width: 80%;
+	margin: auto;
+	display: grid;
+	grid-template-areas: 'jefe jefe list';
+	align-items: center;
+	gap: 20px;
+}
+
+.jefe{
+	width: 100%;
+	grid-area: jefe;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.jefe__img{
+	width: 200%;
+}
+
+.historia {
+	width: 100%;
+	grid-area: list;
+	display: flex;
+	align-items: center;
+}
+.historia_img img{
+	width: 250px;
+	height: 150px;
+}
+
+.historia_content{
+	color: #4D4B4B;
+}
+
+.about__video{
+	margin-top: 60px;
+	background-image: url(../img/bg_pattern.svg);
+	background-size:20%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.video{
+	width: 80%;
+	padding: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* background-color: #FFA716; */
+	background-image: linear-gradient(120deg,  #FFA716 0%, #f5c77d 100%);
+	border-radius: 50px;
+}
+
+@media only screen and (max-width:769px) {
+	.about{
+		grid-template-areas: 
+		'jefe'
+		'list'
+		;
+	}
+	.jefe__img{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width:426px) {
+	
+}
