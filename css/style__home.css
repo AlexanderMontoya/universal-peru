@@ -39,9 +39,6 @@ main{
 
 	.banner__products__item {
 		background-color: #FF0044;
-		width: 60%;
-		height: 80%;
-		margin: 20px;
 		text-align: center;
 		border-radius: 30px;
 		display: flex;
