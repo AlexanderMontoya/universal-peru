@@ -19,9 +19,10 @@ main{
 
 .banner__content{
 	position: absolute;
+	width: 240px;
     bottom: 200px;
     left: 100px;
-	font-size: 20px;
+	font-size: 30px;
     color: #FFFFFF;
 }
 
@@ -47,7 +48,7 @@ main{
 		box-shadow: 10px 10px 10px #2e010d6c;
 
 	}
-		.banner__products__item div {
+		.banner__products__link {
 			font-size: 20px;
 			font-weight: bold;
 			color:#FFFFFF;
@@ -128,12 +129,23 @@ main{
 
 @media only screen and (max-width: 769px) {
 	.banner__content{
+		width: 100%;
 		top: 50px;
-		bottom: auto;
+		position: relative;
+		top: 0;
+		left: 0;
+		text-align: center;
+		font-size: 25px;
 	}
 	
 	.banner__products{
 		position: relative;
+		height: auto;
+		bottom: -100px;
 	}
 	
+
+	.banner__products__link{
+		padding: 10px 0px;
+	}
 }
